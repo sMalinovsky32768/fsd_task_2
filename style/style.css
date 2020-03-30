@@ -1,0 +1,22 @@
+body {
+  color: #575871;
+  font: 14px/24px "Montserrat";
+}
+
+h3, h2, h1 {
+  color: #1f2041;
+}
+
+h1 {
+  font: 24px/30px bold "Quicksand";
+}
+
+h2 {
+  font: 19px/24px bold "Quicksand";
+}
+
+h3 {
+  font: 12px/15px bold uppercase "Montserrat";
+}
+
+/*# sourceMappingURL=style.css.map */

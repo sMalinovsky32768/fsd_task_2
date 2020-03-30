@@ -1,0 +1,25 @@
+@import 'variable';
+
+body{
+    color: $FontColor;
+    font: $Font;
+}
+
+%h{
+    color: $HColor;
+}
+
+h1{
+    font: $H1Font;
+    @extend %h;
+}
+
+h2{
+    font: $H2Font;
+    @extend %h;
+}
+
+h3{
+    font: $H3Font;
+    @extend %h;
+}
