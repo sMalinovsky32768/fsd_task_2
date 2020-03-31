@@ -1,9 +1,0 @@
-@import 'variable';
-
-path{
-    @each $name, $color in $color-map {
-        &.#{&}-#{$name} {
-            fill: $color;
-        }
-    }
-}
