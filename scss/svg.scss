@@ -1,0 +1,9 @@
+@import 'variable';
+
+path{
+    @each $name, $color in $svg-map {
+        &.#{$name} {
+            fill: $color;
+        }
+    }
+}
