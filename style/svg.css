@@ -1,23 +1,29 @@
-path.primary {
-  fill: linear-gradient(180deg, #bc9cff 0%, #8BA4F9 100%);
-}
-path.secondary {
-  fill: linear-gradient(180deg, #6fcf97 0%, #66D2EA 100%);
-}
-path.dark100 {
+path.path-dark100 {
   fill: #1f2041;
 }
-path.dark75 {
+path.path-dark75 {
   fill: rgba(31, 32, 65, 0.75);
 }
-path.dark50 {
+path.path-dark50 {
   fill: rgba(31, 32, 65, 0.5);
 }
-path.dark25 {
+path.path-dark25 {
   fill: rgba(31, 32, 65, 0.25);
 }
-path.dark5 {
+path.path-dark5 {
   fill: rgba(31, 32, 65, 0.05);
+}
+path.path-primary {
+  fill: #bc9cff;
+}
+path.path-secondary {
+  fill: #6fcf97;
+}
+path.path-primaryGr {
+  fill: linear-gradient(180deg, #bc9cff 0%, #8BA4F9 100%);
+}
+path.path-secondaryGr {
+  fill: linear-gradient(180deg, #6fcf97 0%, #66D2EA 100%);
 }
 
 /*# sourceMappingURL=svg.css.map */

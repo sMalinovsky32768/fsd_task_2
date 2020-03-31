@@ -13,14 +13,16 @@ $Secondary: rgba(111, 207, 151, 1);
 $PrimaryGradient: linear-gradient(180deg, $Primary 0%, #8BA4F9 100%);
 $SecondaryGradient: linear-gradient(180deg, $Secondary 0%, #66D2EA 100%);
 
-$svg-map: (
-    primary: $PrimaryGradient,
-    secondary: $SecondaryGradient,
+$color-map: (
     dark100: $DarkShade100,
     dark75: $DarkShade75,
     dark50: $DarkShade50,
     dark25: $DarkShade25,
     dark5: $DarkShade5,
+    primary: $Primary,
+    secondary: $Secondary,
+    primaryGr: $PrimaryGradient,
+    secondaryGr: $SecondaryGradient,
 );
 
 // Font
