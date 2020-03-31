@@ -65,6 +65,9 @@
   font-style: normal;
 }
 body {
+  max-width: 1440px;
+  height: 100%;
+  margin: 0 auto;
   color: rgba(31, 32, 65, 0.75);
   font: 14px/24px "Montserrat";
 }
