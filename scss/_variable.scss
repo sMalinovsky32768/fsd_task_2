@@ -1,12 +1,12 @@
 // Colors
 
-$DarkShade100: #1f2041;
-$DarkShade75: #575871;
-$DarkShade50: #8f90a0;
-$DarkShade25: #c7c7d0;
-$DarkShade5: #f4f4f6;
-$Primary: #bc9cff;
-$Secondary: #6fcf97;
+$DarkShade100: rgba(31, 32, 65, 1);
+$DarkShade75: transparentize($DarkShade100, 0.25);
+$DarkShade50: transparentize($DarkShade100, 0.5);
+$DarkShade25: transparentize($DarkShade100, 0.75);
+$DarkShade5: transparentize($DarkShade100, 0.95);
+$Primary: rgba(188, 156, 255, 1);
+$Secondary: rgba(111, 207, 151, 1);
 
 // Font
 
@@ -16,4 +16,5 @@ $H3Font: 12px/15px bold uppercase 'Montserrat';
 $HColor: $DarkShade100;
 $Font: 14px/24px 'Montserrat';
 $FontColor: $DarkShade75;
+
 // 
